@@ -1,39 +1,20 @@
 {
-  "name": "a1atscript",
-  "version": "0.4.1",
-  "homepage": "https://github.com/hannahhoward/a1atscript",
+  "name": "xing-inflector",
+  "version": "0.0.2",
+  "homepage": "https://github.com/LRDesign/xing-inflector",
   "authors": [
-    "Hannah Howard <hannah@hannahhoward.net>"
+    "Hannah Howard <hannah@lrdesign.com>",
+    "Judson Lest <judson@lrdesign.com>",
+    "Evan Dorn <evan@lrdesign.com>"
   ],
-  "description": "Use AtScript To Simplify Angular 1.x",
+  "description": "A simple inflector for Xing",
   "main": [
-    "dist/a1atscript.js",
-    "dist/a1atscript/annotations.js",
-    "dist/a1atscript/DirectiveObject.js",
-    "dist/a1atscript/Injector.js",
-    "dist/a1atscript/injectorTypes.js",
-    "dist/a1atscript/ToAnnotation.js",
-    "dist/a1atscript/Router.js",
-    "dist/a1atscript/bootstrap.js",
-    "dist/a1atscript/AnnotationFinder.js",
-    "dist/a1atscript/ng2Directives/Component.js",
-    "dist/a1atscript/ng2Directives/ComponentInjector.js",
-    "dist/a1atscript/ng2Directives/Ng2Directive.js",
-    "dist/a1atscript/ng2Directives/Ng2DirectiveDefinitionObject.js",
-    "dist/a1atscript/ng2Directives/SelectorMatcher.js",
-    "dist/a1atscript/ng2Directives/BindBuilder.js",
-    "dist/a1atscript/ng2Directives/EventsBuilder.js",
-    "dist/a1atscript/ng2Directives/PropertiesBuilder.js",
-    "dist/a1atscript/router/ComponentMapper.js",
-    "dist/a1atscript/router/RouteConfig.js",
-    "dist/a1atscript/router/RouteInitializer.js",
-    "dist/a1atscript/router/RouteReader.js"
+    "dist/xing-inflector.js",
   ],
   "keywords": [
-    "angular",
-    "atscript",
-    "dependency",
-    "injection"
+    "xing",
+    "inflector",
+    "es6"
   ],
   "license": "MIT",
   "ignore": [
@@ -44,6 +25,7 @@
     "tests"
   ],
   "dependencies": {
+    "a1atscript": "^0.4.0",
     "angular": "~1.3.12"
   },
   "devDependencies": {
