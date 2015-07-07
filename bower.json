@@ -9,7 +9,7 @@
   ],
   "description": "A simple inflector for Xing",
   "main": [
-    "dist/xing-inflector.js",
+    "dist/xing-inflector.js"
   ],
   "keywords": [
     "xing",
