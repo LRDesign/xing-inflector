@@ -1,7 +1,7 @@
 {
   "name": "xing-inflector",
   "private": false,
-  "version": "0.0.2",
+  "version": "1.0.0-beta",
   "description": "An Inflector for Xing",
   "homepage": "https://github.com/LRDesign/xing-inflector",
   "repository": {
@@ -38,7 +38,7 @@
     "karma-requirejs": "^0.2.2",
     "karma-traceur-preprocessor": "^0.4.0",
     "requirejs": "^2.1.15",
-    "xing-traceur": "0.0.6"
+    "xing-traceur": "= 1.0.0-beta"
   },
   "scripts": {
     "test": "./node_modules/.bin/karma start --browsers Firefox --single-run; ./node_modules/.bin/karma start karma.conf.babel.js --browsers Firefox --single-run",
